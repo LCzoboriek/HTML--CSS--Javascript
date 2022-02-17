@@ -1,0 +1,1 @@
+This is a repository that will be used whilst i learn the fundamentals again on HTML, CSS and Javascript from the Plural sight course, i may add in my own code whilst practicing these languages outside of the excersizes presented
