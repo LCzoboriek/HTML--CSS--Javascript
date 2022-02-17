@@ -12,16 +12,24 @@
         /* Heading rules take precedent as they are more specific */
         h1 {
             color: lightgray;
+            background-color: white;
+            width: 50%;
         }
 
         body {
             background-color: lightgray;
         }
         /* Currently the heading also inherits this background color as its part of the body 
-         but if we change that to a specific class id tag*/
+         but if we change that to specify a lower level attribute it overrites the inheritance,
+         it saves you having to rewrite rules as inheritance happens from the parent enclosure
+         you can add styles directly into elements but its frowned upon and you should be really
+         using a stylesheet or withing a style element in the html and point to the id, class
+         or type of element*/
     </style>
 </head>
 <body>
-    <h1 class="heading">Title</h1>
+    <main>
+        <h1 class="heading"> Title </h1>
+    </main>
 </body>
 </html>
