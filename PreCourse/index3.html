@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .columns {
+            border: solid 1px blue;
+            display: flex;
+        }
+
+        .columns > div {
+            border: solid 1px grey;
+            flex: 1;
+        }
+
+        .columns > div:nth-of-type(2) {
+            flex: 2;
+        } 
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="columns">
+        <div>Column 1</div>
+        <div>Column 2</div>
+        <div>Column 3</div>
+    </div>
+</body>
+</html>
