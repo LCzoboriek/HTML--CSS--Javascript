@@ -89,9 +89,7 @@ article {
 }
 
 /* Pies */
-.price {
-  text-align: right;
-}
+
 .pie {
   width: 200px;
   padding: 10px;
@@ -112,7 +110,7 @@ article {
 }
 
 .pie .price {
-  text-align: start;
+  text-align: right;
 }
 /* This is not aligning it to the right? */
 
