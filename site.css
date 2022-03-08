@@ -70,6 +70,10 @@ article {
   width: 75%;
 }
 
+.columns {
+  display: flex;
+}
+
 @media only screen and (min-width: 768px) {
   main {
     display: flex;
@@ -78,4 +82,40 @@ article {
   aside {
     margin-left: 2%;
   }
+
+  .columns-desktop {
+    display: flex;
+  }
+}
+
+/* Pies */
+.price {
+  text-align: right;
+}
+.pie {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border: solid 1px #ccc;
+}
+
+.pie img {
+  width: 100%;
+}
+.pie .title {
+  font-weight: bold;
+}
+
+.pie .columns {
+  width: 100px;
+}
+
+.pie .price {
+  text-align: start;
+}
+/* This is not aligning it to the right? */
+
+.pie .columns div {
+  width: 50%;
 }
