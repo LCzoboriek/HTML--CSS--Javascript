@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="site.css" type="text/css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Pies | Bethany's Pie Shop</title>
-
-</head>
-<body>
+    <link rel="stylesheet" href="site.css" type="text/css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/pies.html">Pies</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="pies.html">Pies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <aside><img src="images/logo.png" alt="Bethany's Pie Shop"></aside>
-        <article>
-            
-            <section class="columns-desktop">
-                <div class="pie">
-                    <img src="images/apple-pie.png" alt="Apple Pie">
-                    <div class="columns">
-                        <div class="title">Apple Pie</div>
-                        <div class="price">$12.99</div>  
-                    </div>
-                    <p class="desc">Our famous apple pie</p>
-                    <button data-order="apple-pie">Order</button>
-                </div>
-                <div class="pie">
-                    <img src="images/cherry-pie.png" alt="Cherry Pie">
-                    <div class="columns">
-                        <div class="title">Cherry Pie</div>
-                        <div class="price">$15.95</div> 
-                    </div>
-                    <p class="desc">A summer classic!</p>
-                    <button data-order="cherry-pie">Order</button>
-                    <!-- Data-order attribute that you can add to an element that allows
-                    you to add extra info about that element, this is how you can tell what the 
-                value is of what the person clicked -->
-                </div>
-            </section>
-        </article>
+      <aside>
+        <img src="images/logo.png" alt="Bethany's Pie Shop" />
+      </aside>
+
+      <article>
+        <h1>Pies</h1>
+
+        <section class="columns-desktop">
+          <div class="pie">
+            <img src="images/apple-pie.png" alt="Apple Pie" />
+            <div class="columns">
+              <div class="title">Apple Pie</div>
+              <div class="price">$12.95</div>
+            </div>
+            <p class="desc">Our famous apple pie</p>
+            <button data-order="apple-pie">Order</button>
+          </div>
+
+          <div class="pie">
+            <img src="images/cherry-pie.png" alt="Chery Pie" />
+            <div class="columns">
+              <div class="title">Cherry Pie</div>
+              <div class="price">$15.95</div>
+            </div>
+            <p class="desc">A summer classic!</p>
+            <button data-order="cherry-pie">Order</button>
+          </div>
+        </section>
+      </article>
     </main>
     <footer>
         <nav>
