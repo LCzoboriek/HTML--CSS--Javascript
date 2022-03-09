@@ -7,8 +7,26 @@
     <title>Document</title>
 </head>
 <body>
+    <section id="luke-czoboriek" class="card">
+        <h1>Luke Czoboriek</h1>
+        <ul>
+            <li><a href="https://twitter.com/czoboriek" class="tag">twitter</a></li>
+            <li><a href="https://github.com/lczoboriek" class="tag">github</a></li>
+        </ul>
+    </section>
+    <section id="john-papa" class="card">
+        <h1>John Papa</h1>
+        <ul>
+            <li><a href="https://twitter.com/john_papa" class="tag">twitter</a></li>
+            <li><a href="https://github.com/johnpapa" class="tag">github</a></li>    
+        </ul>
+    </section>
     <script>
-       
+        let links = document.querySelectorAll(".tag");
+        links.forEach(function(link){
+            link.setAttribute("target", "_blank")
+        })
+        // This enables all links to be opened on a new tab by assigning attributes to each link using a forEach loop anon function
     </script>
 </body>
 </html>
