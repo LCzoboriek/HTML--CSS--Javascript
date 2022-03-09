@@ -3,6 +3,12 @@
 <head>
     <link rel="stylesheet" href="site.css" type="text/css">
     <style>
+
+        @media only screen and (min-width: 768px) {
+            article {
+                width: 350px
+            }
+        }
         .input-group {
             margin-bottom: 20px;
         }
@@ -66,7 +72,7 @@
                 </div>
                 <p class="desc"></p>
             </div>
-            <form action="http:localhost:7071/api/post"   method="POST">
+            <form action="http://localhost:7071/api/post"   method="POST">
                 <div class="input-group">
                     <div><label for="first-name">First Name</label></div>
                     <div><input type="text" name="first-name" id="first-name"></div>
