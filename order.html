@@ -2,6 +2,41 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="site.css" type="text/css">
+    <style>
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group input,
+        .input-group textarea,
+        .input-group select {
+            padding: 10px;
+            border: solid 1px #999;
+            border-radius: 2px;
+            width: 100%
+        }
+
+        label {font-weight: 600;}
+
+        input[type="reset"] {
+            background: transparent;
+            border: 0;
+            text-decoration: underline;
+            cursor: pointer;        
+        }
+
+        input[type="submit"]{
+            border: solid 1px #999;
+            border-radius: 3px;
+            padding: 10px;
+        }
+
+        h1{
+            padding-bottom: 20px;
+
+        }
+
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +56,7 @@
     <main>
         <aside><img src="images/logo.png" alt="Bethany's Pie Shop"></aside>
         <article>
-            <h1>Order</h1>
+            <h1 class="order-heading">Order</h1>
             <form action="http:localhost:7071/api/post"   method="POST">
                 <div class="input-group">
                     <div><label for="first-name">First Name</label></div>
@@ -35,7 +70,7 @@
                     <div><label for="address">Address</label></div>
                     <div><input type="text" name="address" id="address"></div>
                 </div>
-                <div class=""input-group>
+                <div class="input-group">
                     <div><label for="county">County</label></div>
                     <div>
                         <select name="county" id="county">
